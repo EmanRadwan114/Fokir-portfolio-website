@@ -496,9 +496,8 @@ a.email-link{
         transform: none;
     }
 
-    .about-img img{
+    .about-img img, .social-overlay{
         width: 95%;
-        padding-right: 10px;
     }
 
     .about-subcontent table p{
