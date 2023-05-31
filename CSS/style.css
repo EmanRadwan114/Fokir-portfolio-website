@@ -34,6 +34,7 @@ h1{
     color: var(--mainColor);
     text-transform: uppercase;
     margin-bottom: 10px;
+    white-space: nowrap;
 }
 
 h3{
@@ -171,7 +172,7 @@ a.social {
 
 @media screen  and (max-width:767px) {
         .container{
-            width: 60%;
+            width: 95%;
         }
 
         .btn{
@@ -328,6 +329,7 @@ li.active a{
 .hero-content p{
     font-size: 26px;
     font-weight: 300;
+    white-space: nowrap;
     
 }
 
@@ -354,7 +356,6 @@ li.active a{
     max-width: fit-content;
     width: 0%;
     overflow: hidden;
-    white-space:nowrap;
     border-right: 2px solid white;
     animation: typing 2s infinite alternate-reverse;
 }
