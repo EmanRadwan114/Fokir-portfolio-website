@@ -957,6 +957,10 @@ a.portfolio-active{
     .blog-item:not(:last-of-type){
         margin-bottom: 30px;
     }
+        .blog-content{
+        min-height: 250px;
+
+    }
 }
 
 
